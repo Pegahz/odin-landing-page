@@ -59,12 +59,17 @@ button {
     padding: 8px 32px;
 }
 
-.image {
+.right {
+    flex-shrink: 2;
+}
+
+.left {
     width: 480px;
     height: 230px;
     background-color: #777788;
     color: #e5e7eb;
     display: flex;
+    flex-shrink: 1;
     justify-content: center;
     align-items: center;
 }
